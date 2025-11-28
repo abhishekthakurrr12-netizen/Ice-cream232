@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP Dashboard | Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glow-effect"></div>
+    
+    <div class="login-container">
+        <div class="vip-header">
+            <h1>🚀 VIP PREMIUM DASHBOARD</h1>
+            <div class="vip-badge">SECURE ACCESS</div>
+        </div>
+
+        <div class="login-form">
+            <h2>🔐 Login to System</h2>
+            
+            <div class="input-group">
+                <label>Username:</label>
+                <input type="text" id="username" placeholder="Enter username">
+            </div>
+            
+            <div class="input-group">
+                <label>Password:</label>
+                <input type="password" id="password" placeholder="Enter password">
+            </div>
+
+            <div class="user-type">
+                <label>
+                    <input type="radio" name="userType" value="admin" checked>
+                    Admin
+                </label>
+                <label>
+                    <input type="radio" name="userType" value="user">
+                    User
+                </label>
+            </div>
+
+            <button class="premium-btn" onclick="login()">🚀 Login</button>
+            
+            <div class="demo-accounts">
+                <h3>Demo Accounts:</h3>
+                <p><strong>Admin:</strong> admin / admin123</p>
+                <p><strong>User:</strong> user / user123</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
